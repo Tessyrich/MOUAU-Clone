@@ -1,0 +1,117 @@
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav-top{
+    background-color: rgb(29,157,33);
+
+}
+
+.nav-sub a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-sub a:hover{
+    color: rgb(219,218,33);
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    line-height: 10px;
+    padding-top: 1rem;
+}
+
+.mic a{
+    color: rgb(29,157,33);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.uni a{
+    color: black;
+    font-size: 10px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.link{
+    padding-top: 1rem;
+    padding-left: 10rem;
+}
+
+.link a{
+    text-decoration: none ;
+    color: black;
+    font-weight: 600;
+}
+
+.link a:hover{
+    color: rgb(29,157,33)
+}
+
+.bground{
+    padding-bottom: 4rem;
+    background-color: rgb(245,245,245);
+}
+
+.card{
+    width: 18rem;
+}
+
+.card img{
+    height: 40vh;
+}
+
+.but{
+    border-bottom: 1px solid rgb(204,204,204);
+}
+
+.but a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.but a:hover{
+    color: rgb(29,157,33)
+}
+
+.fa-magnifying-glass{
+    width: 3px;
+}
+
+.foot{
+    background-image: url(./images/bg\ black.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul{
+    width: 23vw;
+}
+
+ul h4{
+    color: yellow;
+}
+
+.mask2{
+    padding-top: 4rem;
+}
+
+footer{
+    background-color: rgb(29,157,33);
+}
