@@ -115,3 +115,19 @@ ul h4{
 footer{
     background-color: rgb(29,157,33);
 }
+
+i{
+    font-size: xx-small;
+    margin-right: 0.5rem;
+}
+
+.link .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-item:hover{
+    transition: 1s;
+    color: rgb(29,157,33) !important;
+    background: none !important;
+    transform: scaleX(93%);
+}
